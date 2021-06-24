@@ -1,0 +1,161 @@
+.graphTop {
+  display: flex;
+  min-height: 53%;
+  margin-right: 2rem;
+  margin-bottom: 30px;
+}
+.fullContainer {
+  padding-top: 23px;
+  border-radius: 5px;
+  background-color: #fbfbfb;
+  flex: 1;
+  flex-direction: column;
+  
+}
+
+.barchart {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.barchart h2 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 1.25rem;
+}
+
+.barchart .legend {
+  display: flex;
+  margin-right: 4em;
+}
+.barchart .legend p {
+  color: #74798c;
+}
+
+.header-text {
+  margin-left: 10px;
+}
+.header-text p {
+  font-size: 14px;
+}
+
+.barchart .header-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.barchart .header-text p {
+  display: flex;
+  margin-left: 1rem;
+}
+.barchart .header-text_kg span {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: crimson;
+  display: flex;
+  border-radius: 50%;
+}
+.barchart .header-text_cal span {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  border-radius: 50%;
+}
+
+.squareContainer_line {
+  background-color: #ff0000;
+  position: relative;
+}
+
+.squareContainer-radar {
+  background-color: #282d30;
+}
+
+.squareContainer-radial {
+  background-color: #fbfbfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerInfo {
+  position: absolute;
+  font-size: 26px;
+  text-align: center;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  width: 120px;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.centerInfo .score {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.centerInfo .scoreText {
+  font-size: 12px;
+  color: rgb(94, 94, 94);
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1439px) {
+  .centerInfo {
+    height: 168px;
+    width: 168px;
+  }
+  .squareContainer{
+    margin-top: 10px;
+  }
+}
+
+.tooltipsBar {
+  background-color: red;
+  width: 50px;
+  height: 63px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+.tooltipsBar p {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.tooltipsLine {
+  background-color: white;
+}
+.tooltipsLine P {
+  margin: 0.5rem;
+  line-height: 24px;
+  font-size: 12px;
+}
+
+.titleLine {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  position: absolute;
+  top: 29px;
+  left: 34px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+
+
+

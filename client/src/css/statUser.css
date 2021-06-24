@@ -1,0 +1,95 @@
+main {
+  display: flex;
+  max-width: 100vw;
+}
+
+.statUser {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  flex: 1;
+}
+
+.statUser .statUser-header {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  padding-bottom: 77px;
+}
+
+.statUser .statUser-header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+.statUser .statUser-header p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.h1Red {
+  color: red;
+}
+
+.panelGraph {
+  display: flex;
+  height: 100%;
+  align-self: stretch;
+}
+.panelGraph .graph {
+  display: flex;
+  width: 70%;
+  flex: 1;
+  flex-direction: column;
+}
+
+.panelGraph aside {
+  min-width: 204px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.graph3 {
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  padding-right: 30px;
+}
+
+.squareContainer {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 1439px) {
+  .statUser {
+    padding: 30px 50px 30px 50px;
+  }
+
+  .squareContainer {
+    width: 260px;
+    height: 260px;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .statUser {
+    padding: 30px 90px 30px 107px;
+  }
+
+  .statUser .statUser-header {
+    padding-bottom: 40px;
+  }
+  .statUser .statUser-header h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .squareContainer {
+    width: 260px;
+    height: 260px;
+  }
+}

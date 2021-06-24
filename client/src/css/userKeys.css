@@ -1,0 +1,70 @@
+.userKeys{
+    width: 100%;
+    height: 124px;
+    background-color: #fbfbfb;
+    display: flex;
+    border-radius: 5px;
+    padding : 2rem;    
+}
+
+.userKeys figure{
+    height: 60px;
+    width: 60px;
+    background-color: #fbeaea;
+    display: flex;
+    border-radius: 6px;
+    margin-right: 24px;
+}
+
+.userKeys figure img{
+    display: flex;
+    margin : auto auto;
+}
+
+.userKeys .numberText {
+    color :#282D30;
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+
+}
+
+.userKeys .legend {
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+@media screen and (max-width: 1439px) {
+
+    .userKeys{
+        width: 100%;
+        height: 88px;
+        padding : 1rem 2rem;
+    }
+    
+    .userKeys figure{
+        height: 54px;
+        width: 54px;
+        margin-right: 24px;
+    }
+    
+    .userKeys figure img{
+        display: flex;
+        margin : auto auto;
+    }
+    
+    .userKeys .numberText {
+        color :#282D30;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 0.5rem;    
+    }
+    
+    .userKeys .legend {
+        font-size: 14px;
+        font-weight: 500;
+    
+    }
+
+}
