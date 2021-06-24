@@ -17,7 +17,7 @@ import "./css/chart.css";
 function App(props) {
 
   return (
-    <div>
+    <>
       <Header />
       <main className="App">
         <Navigation />
@@ -26,7 +26,7 @@ function App(props) {
           <Route path="*" component={NotFound} />
         </Switch>
       </main>
-      </div>
+    </>
   );
 }
 
