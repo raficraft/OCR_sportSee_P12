@@ -1,6 +1,12 @@
 import React from "react";
-
 import PropTypes from "prop-types";
+
+/**
+ * Custom Tooltips for BarChart Component
+ *
+ * @param {object} props
+ * @returns {ReactElement}
+ */
 
 const CustomTooltipActivity = (props) => {
   const { payload, active } = props;

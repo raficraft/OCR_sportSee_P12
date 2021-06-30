@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   LineChart,
   Line,
@@ -14,7 +13,7 @@ import PropTypes from "prop-types";
 
 /**
  * @param {string} props
- * @returns LineChart component
+ * @returns {ReactELement} LineChart component
  */
 
 const LineComponent = (props) => {

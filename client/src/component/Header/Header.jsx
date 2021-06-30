@@ -1,16 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => (
   <header className="headerTop">
     <figure className="headerLogo">
-      <img src="../img/logo.png" alt="Logo" />
+      <Link to="/">
+        <img src="../img/logo.png" alt="Logo" />
+      </Link>
     </figure>
 
     <nav>
-      <a href="#lol">Acceuil</a>
-      <a href="#lol">Profil</a>
-      <a href="#lol">Réglage</a>
-      <a href="#lol">Communauté</a>
+      <a href="#A">Acceuil</a>
+      <a href="#B">Profil</a>
+      <a href="#C">Réglage</a>
+      <a href="#D">Communauté</a>
     </nav>
   </header>
 );

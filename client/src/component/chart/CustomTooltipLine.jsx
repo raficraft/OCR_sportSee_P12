@@ -1,6 +1,12 @@
 import React from "react";
-
 import PropTypes from "prop-types";
+
+/**
+ * Custom Tooltips for LineChart Component
+ *
+ * @param {object} props
+ * @returns {ReactElement}
+ */
 
 const CustomTooltipLine = (props) => {
   const { payload, active } = props;

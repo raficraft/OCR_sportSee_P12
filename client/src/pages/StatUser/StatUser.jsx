@@ -1,11 +1,11 @@
 import React from "react";
 
-import UserKeys from "../component/UserKeys/UserKeys";
-import useFetch from "../Hooks/useFetch";
-import RadarComponent from "../component/chart/RadarChart";
-import LineComponent from "../component/chart/LineChart";
-import RadialComponent from "../component/chart/RadialChart";
-import BarComponent from "../component/chart/BarChart";
+import UserKeys from "../../component/UserKeys/UserKeys.jsx";
+import useFetch from "../../Hooks/useFetch";
+import RadarComponent from "../../component/chart/RadarChart";
+import LineComponent from "../../component/chart/LineChart";
+import RadialComponent from "../../component/chart/RadialChart";
+import BarComponent from "../../component/chart/BarChart";
 
 const StatUser = (props) => {
   const endPoints = props.match.url;

@@ -12,7 +12,7 @@ import PropTypes from "prop-types";
 
 /**
  * @param {string} props
- * @returns LineChart component
+ * @returns {ReactELement} RadarChart component
  */
 
 const RadarComponent = (props) => {

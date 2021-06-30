@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   BarChart,
   Bar,
@@ -15,7 +14,7 @@ import useFetch from "../../Hooks/useFetch.jsx";
 
 /**
  * @param {string} props
- * @returns LineChart component
+ * @returns {ReactElement} LineChart component
  */
 
 const BarComponent = (props) => {

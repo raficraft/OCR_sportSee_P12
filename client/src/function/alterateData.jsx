@@ -1,7 +1,18 @@
 /**
+ *
+ * alterateData.jsx
+ * Alteration of data sent by the backend to be usable by the charts
+ *
+ */
+
+/**
+ * For All alterate function
  * @param {object} data
  * @returns
  */
+
+// Define the day of activity and define min and max value for calories and kilogramme score
+
 export const alterateForLinear = (data) => {
   const dayOfWeek = ["L", "M", "M", "J", "V", "S", "D"];
   const object = data.sessions;
@@ -15,15 +26,12 @@ export const alterateForLinear = (data) => {
 
       sessionLength.push(element.sessionLength);
 
-      console.log(element);
       element.day = dayOfWeek[key];
     }
   }
 
   data.min = Math.min(...sessionLength);
   data.max = Math.max(...sessionLength);
-
-  console.log("line aterate output ", data);
 
   return data;
 };
@@ -43,8 +51,6 @@ export const alterateForPie = (data) => {
 //Define the min and max for kilogram and calories data
 //Change data (YY/MM/DD) by a simple number
 export const alterateForBar = (data) => {
-  console.log("données de base pour Barchart", data);
-
   const kgArray = data.sessions.map((el) => el.kilogram);
   const calArray = data.sessions.map((el) => el.calories);
 
@@ -74,9 +80,11 @@ export const alterateForBar = (data) => {
 
 /**
  * Change number entries of data.data.kind array and reverse this
+ *
  * @param {Object} data
  * @returns
  */
+
 export const alterateForRadar = (data) => {
   const tradDataKind = {
     0: "Cardio",
@@ -90,17 +98,10 @@ export const alterateForRadar = (data) => {
   for (const key in tradDataKind) {
     if (Object.hasOwnProperty.call(tradDataKind, key)) {
       const element = tradDataKind[key];
-
-      console.log(element);
-
       data.data[parseInt(key, 10)].kind = element;
-      console.log("alterate", data.kind);
     }
   }
 
   data.data.reverse();
-
-  console.log(data);
-
   return data;
 };

@@ -7,6 +7,15 @@ import {
 } from "../function/alterateData";
 import PropTypes from "prop-types";
 
+
+/**
+ * 
+ * @param {string} url 
+ * @param {string} method 
+ * @returns {object} data
+ */
+
+
 const useFetch = (url, method) => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);

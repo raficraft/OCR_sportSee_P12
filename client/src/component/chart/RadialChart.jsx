@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   RadialBarChart,
   RadialBar,
@@ -13,7 +12,7 @@ import PropTypes from "prop-types";
  *
  * @param {String} url
  * @param {number} score
- * @returns
+ * @returns {ReactELement} RadialChart component
  */
 
 const RadialComponent = ({ url, score }) => {

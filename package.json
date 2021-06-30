@@ -13,13 +13,15 @@
     "concurrently": "^3.5.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "idx": "^2.5.6"
+    "idx": "^2.5.6",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
   },
   "scripts": {
     "client-install": "cd client && npm install",
     "start": "node app/index.js",
     "server": "node_modules/.bin/nodemon app/index.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm start\" \"npm run client\""  
+    "dev": "concurrently \"npm start\" \"npm run client\""
   }
 }
