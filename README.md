@@ -1,6 +1,9 @@
+#OPENCLASSROOMS PROJECT 12
+
+User page creation from a NodeJS backend. Display as a graph with reload.
 The repository contains the backend and the frontend
 
-#Installation
+#Install and run the project
 
 - Download repository
 - open root directory with vsCode
@@ -11,5 +14,5 @@ The repository contains the backend and the frontend
 
 #Use
 
-- first user http://localhost:3000/user/12
-- snd user http://localhost:3000/user/18
+- First user http://localhost:3000/user/12
+- Snd user http://localhost:3000/user/18
