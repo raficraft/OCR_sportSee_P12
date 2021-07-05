@@ -8,5 +8,8 @@ The repository contains the backend and the frontend
 - npm run clien-install (frontend)
 - npm run dev
 
+
+#Use
+
 - first user http://localhost:3000/user/12
 - snd user http://localhost:3000/user/18
